@@ -5,7 +5,7 @@
 	"description": "A classy, tan, glen plaid flannel, sportcoat with slacks.",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.33.26",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"contentFolders": ["base"],
 	"options": [
 		{
@@ -91,8 +91,8 @@
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
-						"3648979387": "The Prince of Wales Sportcoat",
-						"3346035357": "A comfortable tweed sportcoat with a Glen plaid pattern, as made famous by the Prince of Wales, King Edward VII. Paired with gray slacks, light brown leather shoes and a brown tie. Sure to stand out in any smart casual outing."
+						"3346035357": "A comfortable tweed sportcoat with a Glen plaid pattern, as made famous by the Prince of Wales, King Edward VII. Paired with gray slacks, light brown leather shoes and a brown tie. Sure to stand out in any smart casual outing.",
+						"3648979387": "The Prince of Wales Sportcoat"
 					},
 					"french": {
 						"3346035357": "Un veston confortable en tweed à motif écossais, rendu célèbre par le prince de Galles, le roi Édouard VII. À porter avec un pantalon gris, des chaussures en cuir marron clair et une cravate marron. Il fera sensation lors de vos sorties chics et décontractées.",
@@ -542,5 +542,6 @@
 			"image": "drivinggloves.jpg",
 			"contentFolders": ["patches/gloves/driving"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/JojjeE/h3-powsportcoat/releases/latest/download/updates.json"
 }
