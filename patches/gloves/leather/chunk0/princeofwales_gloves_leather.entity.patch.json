@@ -1,0 +1,16 @@
+{
+	"tempHash": "00C14CC93524FE82",
+	"tbluHash": "00991ACEFE7967B4",
+	"patch": [
+		{ "SubEntityOperation": ["070706ab94777860", { "SetName": "Gloves_Leather" }] },
+		{ "SubEntityOperation": ["070706ab94777860", { "SetFactory": "00BEE701448762C1" }] },
+		{ "SubEntityOperation": ["070706ab94777860", { "SetBlueprint": "005D2B1CBD509E61" }] },
+		{
+			"SubEntityOperation": [
+				"070706ab94777860",
+				{ "AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#2e2e2e" }] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,96 @@
+{
+	"tempHash": "009695B93F670C48",
+	"tbluHash": "007DF53F2CB99F17",
+	"rootEntity": "89f002a80e012411",
+	"entities": {
+		"77623ace9ae497a0": {
+			"parent": "89f002a80e012411",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["90357e73c93b6ace"],
+					"postInit": true
+				}
+			}
+		},
+		"e942d5fc4c8f3a23": {
+			"parent": "89f002a80e012411",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d6614c9026aeb9d1"],
+					"postInit": true
+				}
+			}
+		},
+		"89f002a80e012411": {
+			"parent": null,
+			"name": "CHARSET_Agent47_PrinceOfWales",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["9a3e5b1a1711949a", "77623ace9ae497a0", "e942d5fc4c8f3a23"],
+					"postInit": true
+				}
+			}
+		},
+		"9a3e5b1a1711949a": {
+			"parent": "89f002a80e012411",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["0224d7d09b17e363"],
+					"postInit": true
+				}
+			}
+		},
+		"0224d7d09b17e363": {
+			"parent": "9a3e5b1a1711949a",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"90357e73c93b6ace": {
+			"parent": "77623ace9ae497a0",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"d6614c9026aeb9d1": {
+			"parent": "e942d5fc4c8f3a23",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_princeofwales_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

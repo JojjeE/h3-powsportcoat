@@ -1,0 +1,73 @@
+{
+	"tempHash": "00C14CC93524FE82",
+	"tbluHash": "00991ACEFE7967B4",
+	"patch": [
+		{ "RemoveEntityByID": "cafe00209253520b" },
+		{ "RemoveEntityByID": "cafe2d6a103bbac6" },
+		{ "RemoveEntityByID": "cafe90536316b260" },
+		{ "RemoveEntityByID": "cafecea33218cab5" },
+		{ "RemoveEntityByID": "cafecbc6acaa3429" },
+		{ "RemoveEntityByID": "cafe97a035917d06" },
+		{ "RemoveEntityByID": "cafe3a33ddabe533" },
+		{ "RemoveEntityByID": "cafe34dd6b3719cc" },
+		{ "RemoveEntityByID": "cafe553e4a6999e8" },
+		{ "RemoveEntityByID": "cafe7971e05e248b" },
+		{ "RemoveEntityByID": "cafe72641e1c4de6" },
+		{ "RemoveEntityByID": "cafe7f5737c8b0d0" },
+		{ "RemoveEntityByID": "cafe92012eb30b1e" },
+		{ "RemoveEntityByID": "cafe3d2d98c1b5a7" },
+		{ "RemoveEntityByID": "cafe3a2233779919" },
+		{ "RemoveEntityByID": "cafeef89cc65612c" },
+		{ "RemoveEntityByID": "cafe01c5d29bc4d7" },
+		{ "RemoveEntityByID": "cafee896858d1cee" },
+		{ "RemoveEntityByID": "cafeb2fd140e2c16" },
+		{ "RemoveEntityByID": "cafea86e47575e65" },
+		{ "RemoveEntityByID": "cafe4906cea5219d" },
+		{ "RemoveEntityByID": "cafee1bb34c4a855" },
+		{ "RemoveEntityByID": "cafe7a0b12dea223" },
+		{ "RemoveEntityByID": "cafe9fec1aa9cd5b" },
+		{ "RemoveEntityByID": "cafe74d7125528be" },
+		{ "RemoveEntityByID": "cafebaf890b26b50" },
+		{ "RemoveEntityByID": "cafe7f5ada472b08" },
+		{ "RemoveEntityByID": "cafeba9967806cf6" },
+		{ "RemoveEntityByID": "cafeee82c3451d38" },
+		{ "RemoveEntityByID": "cafeafe893ca2e23" },
+		{ "RemoveEntityByID": "cafefdec6c4d9ef6" },
+		{ "RemoveEntityByID": "cafe00e0aa05dfea" },
+		{ "RemoveEntityByID": "cafe82af8f8a24f6" },
+		{ "RemoveEntityByID": "cafe589c244f0326" },
+		{ "RemoveEntityByID": "cafe00c9121de812" },
+		{ "RemoveEntityByID": "cafe720a6bf7d9e1" },
+		{ "RemoveEntityByID": "cafea715cbaa7af0" },
+		{ "RemoveEntityByID": "cafee6c572a3063c" },
+		{ "RemoveEntityByID": "cafefdadcfa3e212" },
+		{
+			"SubEntityOperation": [
+				"f15dc7e0c1fa979c",
+				{ "SetPropertyValue": { "property_name": "ConstantColorRGB_05_Value", "value": "#8f6d5a" } }
+			]
+		},
+		{ "SubEntityOperation": ["cafe6665bf561094", { "SetName": "Mesh_Shirt" }] },
+		{ "SubEntityOperation": ["cafe6665bf561094", { "SetFactory": "[modules:/zbodypartentity.class].pc_entitytype" }] },
+		{
+			"SubEntityOperation": [
+				"cafe6665bf561094",
+				{ "SetBlueprint": "[modules:/zbodypartentity.class].pc_entityblueprint" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cafe6665bf561094",
+				{
+					"AddProperty": [
+						"m_pMeshResource",
+						{ "type": "ZRuntimeResourceID", "value": { "resource": "00429014B789F1FC", "flag": "5F" } }
+					]
+				}
+			]
+		},
+		{ "SubEntityOperation": ["cafe6665bf561094", { "RemoveExposedInterface": "ZClothColliderGroupAspect" }] },
+		{ "SubEntityOperation": ["cafe6665bf561094", { "RemoveExposedInterface": "ZBodyPartEntity" }] }
+	],
+	"patchVersion": 6
+}

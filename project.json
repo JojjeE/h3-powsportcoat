@@ -1,4 +1,14 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/quickentity-editor-next/main/src/lib/project-schema.json",
-	"customPaths": []
+	"customPaths": [
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_princeofwales_heroa_v0.entitytemplate].pc_entitytemplate",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_princeofwales_heroa_v0.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_princeofwales.entitytemplate].pc_entitytype",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_princeofwales.entitytemplate].pc_entityblueprint",
+		"agent47_signaturesuit_jacket_glencheck",
+		"agent47_signaturesuit_jacket_glencheck_mip",
+		"[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_global_hero_princeofwales_m_name.sweetline].pc_sweetline",
+		"[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_global_hero_princeofwales_m_desc.sweetline].pc_sweetline",
+		"princeofwales_jacket_fixed_shirtbuttons_temp",
+		"princeofwales_jacket_fixed_shirtbuttons_tblu"
+	]
 }
