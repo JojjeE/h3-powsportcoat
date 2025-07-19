@@ -6,4 +6,4 @@ A classy, tan, glen plaid flannel, sportcoat with slacks.
 
 ---
 
-`Jojje.PrinceofWales` v1.0.0, by Jojje. This README was automatically generated from the mod's manifest.
+`Jojje.PrinceofWales` v1.0.1, by Jojje. This README was automatically generated from the mod's manifest.

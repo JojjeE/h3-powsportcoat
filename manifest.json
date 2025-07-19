@@ -5,7 +5,7 @@
 	"description": "A classy, tan, glen plaid flannel, sportcoat with slacks.",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.33.26",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"contentFolders": ["base"],
 	"options": [
 		{
