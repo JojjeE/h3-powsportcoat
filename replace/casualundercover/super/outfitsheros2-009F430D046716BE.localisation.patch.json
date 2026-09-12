@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_REWARD_HERO_S2ELUSIVE10_M_PRO130497_NAME_485AF2FB-64AA-44A4-BA19-A5BEAC0E6718": {
+			"english": "The Prince of Wales Sportcoat",
+			"french": "Le veston Prince de Galles",
+			"german": "Der Prince of Wales Sportmantel",
+			"italian": "Il cappotto sportivo Principe di Galles",
+			"russian": "Пиджак от Принцу Уэльскому",
+			"spanish": "El blazer del Príncipe de Gales"
+		},
+		"CHAR_REWARD_HERO_S2ELUSIVE10_M_PRO130497_DESCRIPTION_485AF2FB-64AA-44A4-BA19-A5BEAC0E6718": {
+			"english": "A comfortable tweed sportcoat with a Glen plaid pattern, as made famous by the Prince of Wales, King Edward VII. Paired with gray slacks, light brown leather shoes and a brown tie. Sure to stand out in any smart casual outing.",
+			"french": "Un veston confortable en tweed à motif écossais, rendu célèbre par le prince de Galles, le roi Édouard VII. À porter avec un pantalon gris, des chaussures en cuir marron clair et une cravate marron. Il fera sensation lors de vos sorties chics et décontractées.",
+			"german": "Ein bequemer Tweed-Sportmantel mit Glencheck-Muster, wie es der Prinz von Wales, König Edward VII., berühmt machte. Kombiniert mit grauen Hosen, hellbraunen Lederschuhen und einer braunen Krawatte. Ein echter Hingucker bei jedem eleganten Freizeit-Outfit.",
+			"italian": "Una comoda giacca sportiva in tweed con motivo Glen plaid, resa celebre dal Principe di Galles, Re Edoardo VII del Regno Unito. Abbinata a pantaloni grigi, scarpe in pelle marrone chiaro e cravatta marrone. Di sicuro spiccherà in qualsiasi uscita smart casual.",
+			"russian": "Удобный твидовый пиджак с узором «глен-плейд», стал знаменитым благодаря Принцу Уэльскому, королю Великобритании Эдуарду VII. В сочетании с серыми брюками, светло-коричневыми кожаными туфлями и коричневым галстуком он непременно станет изюминкой любого элегантного повседневного образа.",
+			"spanish": "Un cómodo blazer de tweed con estampado de cuadros Glen, popularizado por el príncipe de Gales, el rey Eduardo VII. Combinado con pantalones grises, zapatos de cuero marrón claro y corbata marrón, sin duda destacará en cualquier salida elegante e informal."
+		}
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_princeofwales_heroa_v0.entitytemplate].pc_entitytemplate",
+	"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_princeofwales_heroa_v0.entitytemplate].pc_entityblueprint",
+	"patch": [
+		{ "RemoveEntity": "cafe00209253520b" },
+		{ "RemoveEntity": "cafe2d6a103bbac6" },
+		{ "RemoveEntity": "cafe90536316b260" },
+		{ "RemoveEntity": "cafecea33218cab5" },
+		{ "RemoveEntity": "cafecbc6acaa3429" },
+		{ "RemoveEntity": "cafe97a035917d06" },
+		{ "RemoveEntity": "cafe3a33ddabe533" },
+		{ "RemoveEntity": "cafe34dd6b3719cc" },
+		{ "RemoveEntity": "cafe553e4a6999e8" },
+		{ "RemoveEntity": "cafe7971e05e248b" },
+		{ "RemoveEntity": "cafe72641e1c4de6" },
+		{ "RemoveEntity": "cafe7f5737c8b0d0" },
+		{ "RemoveEntity": "cafe92012eb30b1e" },
+		{ "RemoveEntity": "cafe3d2d98c1b5a7" },
+		{ "RemoveEntity": "cafe3a2233779919" },
+		{ "RemoveEntity": "cafeef89cc65612c" },
+		{ "RemoveEntity": "cafe01c5d29bc4d7" },
+		{ "RemoveEntity": "cafee896858d1cee" },
+		{ "RemoveEntity": "cafeb2fd140e2c16" },
+		{ "RemoveEntity": "cafea86e47575e65" },
+		{ "RemoveEntity": "cafe4906cea5219d" },
+		{ "RemoveEntity": "cafee1bb34c4a855" },
+		{ "RemoveEntity": "cafe7a0b12dea223" },
+		{ "RemoveEntity": "cafe9fec1aa9cd5b" },
+		{ "RemoveEntity": "cafe74d7125528be" },
+		{ "RemoveEntity": "cafebaf890b26b50" },
+		{ "RemoveEntity": "cafe7f5ada472b08" },
+		{ "RemoveEntity": "cafeba9967806cf6" },
+		{ "RemoveEntity": "cafeee82c3451d38" },
+		{ "RemoveEntity": "cafeafe893ca2e23" },
+		{ "RemoveEntity": "cafefdec6c4d9ef6" },
+		{ "RemoveEntity": "cafe00e0aa05dfea" },
+		{ "RemoveEntity": "cafe82af8f8a24f6" },
+		{ "RemoveEntity": "cafe589c244f0326" },
+		{ "RemoveEntity": "cafe00c9121de812" },
+		{ "RemoveEntity": "cafe720a6bf7d9e1" },
+		{ "RemoveEntity": "cafea715cbaa7af0" },
+		{ "RemoveEntity": "cafee6c572a3063c" },
+		{ "RemoveEntity": "cafefdadcfa3e212" },
+		{ "PatchEntity": ["cafe6665bf561094", { "SetName": "Mesh_Shirt" }] },
+		{ "PatchEntity": ["cafe6665bf561094", { "SetFactory": "[modules:/zbodypartentity.class].pc_entitytype" }] },
+		{ "PatchEntity": ["cafe6665bf561094", { "SetBlueprint": "[modules:/zbodypartentity.class].pc_entityblueprint" }] },
+		{
+			"PatchEntity": [
+				"cafe6665bf561094",
+				{
+					"AddProperty": [
+						"m_pMeshResource",
+						{ "type": "ZRuntimeResourceID", "value": { "resource": "00429014B789F1FC", "type": "normal" } }
+					]
+				}
+			]
+		},
+		{ "PatchEntity": ["cafe6665bf561094", { "RemoveExposedInterface": "ZClothColliderGroupAspect" }] },
+		{ "PatchEntity": ["cafe6665bf561094", { "RemoveExposedInterface": "ZBodyPartEntity" }] }
+	],
+	"patchVersion": 7
+}

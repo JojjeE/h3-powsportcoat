@@ -1,0 +1,24 @@
+{
+	"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_princeofwales_heroa_v0.entitytemplate].pc_entitytemplate",
+	"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_princeofwales_heroa_v0.entitytemplate].pc_entityblueprint",
+	"patch": [
+		{ "PatchEntity": ["070706ab94777860", { "SetName": "Agent47_Gloves_Driving" }] },
+		{
+			"PatchEntity": [
+				"070706ab94777860",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/agent47_gloves_driving.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"PatchEntity": [
+				"070706ab94777860",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/agent47_gloves_driving.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 7
+}
