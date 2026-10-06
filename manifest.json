@@ -4,7 +4,7 @@
 	"description": "A classy, tan, glen plaid flannel, sportcoat with slacks.",
 	"authors": ["Jojje"],
 	"version": "1.0.1",
-	"frameworkVersion": "3.0.0",
+	"frameworkVersion": "3.0.0-rc.4",
 	"url": "https://github.com/JojjeE/h3-powsportcoat",
 	"conditions": { "supportedGames": ["h3"] },
 	"data": { "contentFolders": ["base"] },
